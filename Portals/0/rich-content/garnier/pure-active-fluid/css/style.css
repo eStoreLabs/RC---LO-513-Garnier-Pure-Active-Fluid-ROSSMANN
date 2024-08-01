@@ -102,7 +102,7 @@ body {
 }
 #es-garnier.es-garnier .es-kv__subtitle::before {
   position: absolute;
-  content: url('https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/point.png');
+  content: url('../img/point.png');
   width: 1px;
   height: 1px;
   top: -3px;
@@ -150,8 +150,7 @@ body {
 #es-garnier.es-garnier .es-kv__label::before {
   position: absolute;
   content: '';
-  background: url('https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/label-bracket.png')
-    no-repeat;
+  background: url('../img/label-bracket.png') no-repeat;
   width: 25px;
   height: 125px;
   left: 0;
@@ -160,8 +159,7 @@ body {
 #es-garnier.es-garnier .es-kv__label::after {
   position: absolute;
   content: '';
-  background: url('https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/label-bracket.png')
-    no-repeat;
+  background: url('../img/label-bracket.png') no-repeat;
   transform: rotate(180deg);
   width: 25px;
   height: 125px;
@@ -175,14 +173,14 @@ body {
 }
 #es-garnier.es-garnier .es-kv__accent2::before,
 #es-garnier.es-garnier .es-kv__accent2::after {
-  content: url(https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/square\ bracket\ open.png);
+  content: url(../img/square\ bracket\ open.png);
   color: #e75e1c;
   position: absolute;
   top: 35%;
   left: 0;
 }
 #es-garnier.es-garnier .es-kv__accent2::after {
-  content: url(https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/square\ bracket\ close.png);
+  content: url(../img/square\ bracket\ close.png);
   right: -200px;
 }
 @media screen and (min-width: 425px) {
@@ -254,6 +252,34 @@ body {
     height: 100%;
   }
 }
+#es-garnier.es-garnier .es-evaluation {
+  background-color: #00b2d9;
+}
+
+#es-garnier.es-garnier .es-evaluation__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#es-garnier.es-garnier .es-evaluation__text {
+  color: #fff;
+  text-align: center;
+}
+#es-garnier.es-garnier .es-evaluation__packshot {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  height: 350px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#es-garnier.es-garnier .es-evaluation__text-subtitle {
+  font-weight: 600;
+}
 #es-garnier.es-garnier .es-ingredients {
   padding: 16px;
 }
@@ -268,8 +294,8 @@ body {
 #es-garnier.es-garnier .es-ingredients__packshot::before {
   content: 'przed';
   position: absolute;
-  bottom: 25%;
-  left: 20%;
+  bottom: 20%;
+  left: 15%;
   font-weight: 700;
   font-size: 12px;
   color: #fff;
@@ -279,8 +305,8 @@ body {
 #es-garnier.es-garnier .es-ingredients__packshot::after {
   content: 'po';
   position: absolute;
-  bottom: 25%;
-  right: 25%;
+  bottom: 20%;
+  right: 30%;
   font-weight: 700;
   font-size: 12px;
   color: #fff;
@@ -321,6 +347,7 @@ body {
   font-size: 12px;
   padding-top: 16px;
   text-align: center;
+  font-weight: 700;
 }
 #es-garnier.es-garnier .es-ingredients__title {
   text-transform: uppercase;
@@ -390,12 +417,12 @@ body {
 }
 @media screen and (min-width: 600px) {
   #es-garnier.es-garnier .es-ingredients__packshot::before {
-    left: 28%;
+    left: 15%;
     font-size: 18px;
     font-weight: 600;
   }
   #es-garnier.es-garnier .es-ingredients__packshot::after {
-    right: 26%;
+    right: 33%;
     font-size: 18px;
     font-weight: 600;
   }
@@ -482,8 +509,7 @@ body {
   #es-garnier.es-garnier .es-active-ingredients__item-title--blue::before {
     position: absolute;
     content: '';
-    background: url('https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/active-bracket-blue-before.png')
-      no-repeat;
+    background: url('../img/active-bracket-blue-before.png') no-repeat;
     display: block;
     top: -15px;
     left: -20px;
@@ -495,8 +521,7 @@ body {
   #es-garnier.es-garnier .es-active-ingredients__item-title--blue::after {
     position: absolute;
     content: '';
-    background: url('https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/active-bracket-blue-after.png')
-      no-repeat;
+    background: url('../img/active-bracket-blue-after.png') no-repeat;
     display: block;
     top: -15px;
     right: -45%;
@@ -512,8 +537,7 @@ body {
   #es-garnier.es-garnier .es-active-ingredients__item-title--white::before {
     position: absolute;
     content: '';
-    background: url('https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/active-bracket-white-before.png')
-      no-repeat;
+    background: url('../img/active-bracket-white-before.png') no-repeat;
     display: block;
     top: -6px;
     right: 49%;
@@ -525,8 +549,7 @@ body {
   #es-garnier.es-garnier .es-active-ingredients__item-title--white::after {
     position: absolute;
     content: '';
-    background: url('https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/active-bracket-white-after.png')
-      no-repeat;
+    background: url('../img/active-bracket-white-after.png') no-repeat;
     display: block;
     top: -6px;
     right: -14%;
@@ -770,6 +793,24 @@ body {
     min-width: 240px;
     font-size: 12px;
     text-align: center;
+  }
+  #es-garnier.es-garnier .es-evaluation__left {
+    flex-direction: row;
+    max-width: 50%;
+  }
+  #es-garnier.es-garnier .es-evaluation__text {
+    max-width: 250px;
+  }
+  #es-garnier.es-garnier .es-evaluation__packshot {
+    max-width: 100px;
+  }
+  #es-garnier.es-garnier .es-evaluation {
+    max-width: 95%;
+    margin: 0 auto;
+    background: url('../img/evaluation-bg.png') no-repeat right center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
   }
 }
 @media screen and (min-width: 998px) {
@@ -1166,9 +1207,15 @@ body {
 @media screen and (min-width: 860px) {
   #es-garnier.es-garnier .es-ingredients {
     margin: 0 auto;
+    padding-top: 150px;
+    margin-top: -70px;
+    background: url('../img/ingredients-circle.png') no-repeat;
+    background-size: 40%;
+    background-position: right 0%;
   }
   #es-garnier.es-garnier .es-ingredients__title {
     margin-left: 10%;
+    margin-bottom: 40px;
     text-align: left;
   }
   #es-garnier.es-garnier .es-ingredients__container {
@@ -1196,8 +1243,7 @@ body {
     margin: 0;
     margin-top: -150px;
     margin-left: -50px;
-    background: url('https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/bg-ingr.png')
-      no-repeat 10px center;
+    background: url('../img/bg-ingr.png') no-repeat 10px center;
     background-size: 90%;
     z-index: 10;
   }
@@ -1212,8 +1258,7 @@ body {
     height: 240px;
   }
   #es-garnier.es-garnier .es-cross__steps-container {
-    background: url('https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/steps-bg.png')
-      no-repeat center;
+    background: url('../img/steps-bg.png') no-repeat center;
     background-size: cover;
     min-height: 600px;
   }
@@ -1241,8 +1286,7 @@ body {
   #es-garnier.es-garnier .es-cross__steps-item--1::after {
     content: '';
     position: absolute;
-    background: url('https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/steps-line.png')
-      no-repeat center;
+    background: url('../img/steps-line.png') no-repeat center;
     width: 260px;
     height: 2px;
     bottom: 0;
@@ -1254,8 +1298,7 @@ body {
   #es-garnier.es-garnier .es-cross__steps-item--2::after {
     content: '';
     position: absolute;
-    background: url('https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/steps-line.png')
-      no-repeat center;
+    background: url('../img/steps-line.png') no-repeat center;
     width: 500px;
     height: 2px;
     bottom: 0;
@@ -1267,8 +1310,7 @@ body {
   #es-garnier.es-garnier .es-cross__steps-item--3::after {
     content: '';
     position: absolute;
-    background: url('https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/steps-line.png')
-      no-repeat center;
+    background: url('../img/steps-line.png') no-repeat center;
     width: 330px;
     height: 2px;
     bottom: 0;
@@ -1280,8 +1322,7 @@ body {
   #es-garnier.es-garnier .es-cross__steps-item--4::after {
     content: '';
     position: absolute;
-    background: url('https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/steps-line.png')
-      no-repeat center;
+    background: url('../img/steps-line.png') no-repeat center;
     width: 275px;
     height: 2px;
     bottom: 0;
@@ -1312,11 +1353,11 @@ body {
     transform: translateY(-50%);
   }
   #es-garnier.es-garnier .es-info__icon--1::before {
-    content: url('https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/line-1.png');
+    content: url('../img/line-1.png');
     left: -124px;
   }
   #es-garnier.es-garnier .es-info__icon--3::before {
-    content: url('https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/line-1.png');
+    content: url('../img/line-1.png');
     left: -124px;
   }
   #es-garnier.es-garnier .es-color {
@@ -1352,7 +1393,7 @@ body {
     position: absolute;
     width: 110px;
     height: 100%;
-    background-image: url('https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/eclipse-left.png');
+    background-image: url('../img/eclipse-left.png');
     background-repeat: no-repeat;
     background-size: 100%;
     top: -30px;
@@ -1364,7 +1405,7 @@ body {
     position: absolute;
     width: 256px;
     height: 165px;
-    background-image: url('https://www.ros.net.pl/portals/0/rich-content/garnier/pure-active-fluid/img/eclipse-right.png');
+    background-image: url('../img/eclipse-right.png');
     background-repeat: no-repeat;
     background-size: 100%;
     bottom: -91px;
@@ -1401,11 +1442,13 @@ body {
     z-index: 3;
   }
   #es-garnier.es-garnier .es-ingredients__packshot::before {
-    left: 30%;
+    left: 15%;
+    bottom: 20%;
     font-size: 15px;
   }
   #es-garnier.es-garnier .es-ingredients__packshot::after {
-    right: 26%;
+    right: 33%;
+    bottom: 20%;
     font-size: 15px;
   }
 }
